@@ -1,0 +1,33 @@
+{
+  "name": "xolder-root",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "build": "babel-node ./scripts/build.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igmat/xolder.git"
+  },
+  "author": "Ihor Chulinda <ichulinda@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Igmat/xolder/issues"
+  },
+  "homepage": "https://github.com/Igmat/xolder#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-typescript": "^7.8.3",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "eslint": "^6.8.0",
+    "lerna": "^3.20.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}

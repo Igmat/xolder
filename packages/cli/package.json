@@ -1,0 +1,22 @@
+{
+  "name": "xolder-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igmat/xolder.git"
+  },
+  "author": "Ihor Chulinda <ichulinda@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Igmat/xolder/issues"
+  },
+  "homepage": "https://github.com/Igmat/xolder#readme",
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}

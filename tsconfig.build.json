@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "commonjs",
+        "sourceMap": true,
+        "declaration": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "pretty": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "noErrorTruncation": true,
+        "useDefineForClassFields": true,
+        "stripInternal": true,
+        "resolveJsonModule": true,
+        "preserveSymlinks": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "noEmit": true,
+        "diagnostics": true
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
